@@ -9,7 +9,7 @@ using Entities.Concrete;
 
 namespace DataAccess.Concrete.EntitiyFramework
 {
-    public class BilsemTeknikContext:DbContext
+    public class EfContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

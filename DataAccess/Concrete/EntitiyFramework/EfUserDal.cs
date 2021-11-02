@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BilsemTeknik.DataAccess.Concrete.EntitiyFramework
 {
-    public class EfUserDal : EfGenericRepository<User, BilsemTeknikContext>, IUserDAL
+    public class EfUserDal : EfGenericRepository<User, EfContext>, IUserDAL
     {
     }
 }
